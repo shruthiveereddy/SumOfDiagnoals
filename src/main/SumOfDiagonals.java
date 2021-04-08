@@ -1,6 +1,6 @@
-package smartinterviews;
+package main;
 
-class SumOfDiagonals {
+public class SumOfDiagonals {
 
 	public static boolean sumInt(int arr[][], int n) {
 		if(arr[0].length!=arr.length) {

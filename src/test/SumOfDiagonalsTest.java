@@ -1,15 +1,17 @@
-package smartinterviews;
+package test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
+import main.SumOfDiagonals;
+
 class SumOfDiagonalsTest {
 
 	@Test
-	public void testcase1() {
+	public void sumIntTest() {
 
-		SumOfDiagonals tester = new SumOfDiagonals(); 
+		SumOfDiagonals sumOfIntDiag = new SumOfDiagonals(); 
 		
 		int arr[][] =
 		     {
@@ -18,13 +20,13 @@ class SumOfDiagonalsTest {
 		         {1, 8, 1}
 		     };
         // assert statements
-        assertEquals(true, tester.sumInt(arr, arr.length));
+        assertEquals(true, sumOfIntDiag.sumInt(arr, arr.length));
 	}
 	
 	@Test
-	public void testcase2() {
+	public void sumDoubleTest() {
 
-		SumOfDiagonals doubleTester = new SumOfDiagonals(); 
+		SumOfDiagonals sumOfDoubDiag = new SumOfDiagonals(); 
 		
 		double arr[][] =
 		     {
@@ -33,14 +35,14 @@ class SumOfDiagonalsTest {
 		         {10.5, 8.5, 10.5}
 		     };
         // assert statements
-        assertEquals(true, doubleTester.sumDouble(arr, arr.length));
+        assertEquals(true, sumOfDoubDiag.sumDouble(arr, arr.length));
 	}
 	
 	
 	@Test
-	public void testcase3() {
+	public void sumStringTest() {
 
-		SumOfDiagonals stringTester = new SumOfDiagonals(); 
+		SumOfDiagonals sumOfStrDiag = new SumOfDiagonals(); 
 		
 		String arr[][] =
 		     {
@@ -49,7 +51,7 @@ class SumOfDiagonalsTest {
 		         {"ab", "ab", "ab"}
 		     };
        // assert statements
-       assertEquals(true, stringTester.sumString(arr, arr.length));
+       assertEquals(true, sumOfStrDiag.sumString(arr, arr.length));
 	}
 	
 	
