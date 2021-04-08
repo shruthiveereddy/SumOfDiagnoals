@@ -54,7 +54,10 @@ class SumOfDiagonals {
 	public static void main(String[] args) {
 		int n = 4;
 
-		double arr[][] = { { 1, 2, 1, 1 }, { 4, 1, 1, 3 }, { 1, 1, 1, 4 }, { 1, 8, 1, 1 } };
+		double arr[][] = { { 1, 2, 1, 1 }, 
+				           { 4, 1, 1, 3 }, 
+				           { 1, 1, 1, 4 }, 
+				           { 1, 8, 1, 1 } };
 		if(arr[0][0] != Math.ceil(arr[0][0])) {
 			//System.out.println(sumInt(arr, n));
 		} else {
