@@ -2,7 +2,7 @@ package main;
 
 //This Class determines if the Diagonals in the matrix are equal or not.
 public class SumOfDiagonals {
-
+// this is the added comment
 	public static boolean areDiagonalsEquals(int arr[][], int n) {
 		if(arr[0].length!=arr.length) {
 			throw new RuntimeException("Since n is the length of the Array, Please provide valid length.");
